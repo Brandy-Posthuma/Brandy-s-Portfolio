@@ -11,6 +11,7 @@
 - Contact information
 
 The following link can be used to view the webpage:
+https://brandy-posthuma.github.io/Brandy-s-Portfolio/
 
 Here is a screenshot of the completed webpage:
 
