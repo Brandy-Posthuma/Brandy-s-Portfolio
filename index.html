@@ -4,42 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Brandy's Portfolio</title>
 </head>
+
 <body>
-    <!--Header with a navagation bar-->
+
     <header>
-        <h1> Brandy Posthuma</h1>
+        <h1>Brandy Posthuma</h1> 
         <nav>
-            <a href="#about_me" >About Me</a>
-            <a href="#projects" >Projects</a>
-            <a href="#contact_me" >Contact Me</a>
+          <a href="#about_me" >About Me</a>   
+          <a href="#projects" >Projects</a>
+          <a href="#contact_me" >Contact Me</a>
+          <a href=".Resume.pdf">Resume</a>      
         </nav>
-    </header>
-    <!--Immage of hero banner-->
-    <div class="hero"></div>
-    <!--This is the About Me section-->
-<main>
-    <section class="box">
-    <h2 id="about me">About Me</h3> 
-        <p>I am blah blah blah</p>
-    </section>
+    </header>    
+
+    <div class="hero-image"></div>
+
+    <main>   
+       
+      <section class="about_me" id="about_me">
+        <aside class="about_me_header">
+        <h2>About Me</h2>
+        <p>
+            My name is Brandy Posthuma and am currently in the University of Arizona coding bootcamp.  Up to this point I've learned the basics of HTML and CSS.  We just started to cover JavaScript.  I currenly live in Phoenix, Arizona and have a goal to get into Software Development.
+
+            With taking this bootcamp and learning software development, I hope to learn how to overcome obstacles with coding and the many languages out there in the universe. I'm a very open minded individual that is trying to make a career change into the world of IT.  Being someone who enjoys solving problems, I figure that coding is right up that alley. 
+
+            The goal for creating this site is to have a place to add all of my projects to make it eaiser to showcase my skills while trying to get into the new industry. Below you'll find a picture of myself with my puppy. 
+        </p>
+        <img src="assets/css/Brandy.JPG" alt="profile picture"></img>
+        </aside>
+        </section>
      <!--This is the project section-->
-    <section class="box">
-    <h2 id="projects">Projects</h3>  
+    <section id="projects" class="project-boxs">
+    <h2 id="projects">Projects</h2>  
     <nav>
-        <div class="container">
-          <a id="study_guide" href="https://brandy-posthuma.github.io/prework-study-guide/" target="_blank">
-              prework-study-guide
+        <div class="box">
+          <a id="study_guide" href="https://brandy-posthuma.github.io/prework-study-guide/"target="_blank">
+              Prework-Study-Guide
           </a> 
         </div>
+        <div class="box">
+            <a id="run_buddy" href="https://brandy-posthuma.github.io/run-buddy/"target="_blank">
+                Run-Buddy
+            </a>
+        </div>
+        <div class="box">
+            <a id="code_refractoring" href="https://brandy-posthuma.github.io/Week-1-Challenge/"target="_blank">
+                Code-Refractoring
+            </a>
+        </div>
     </nav>  
-
     </section>
-       
+    <section class="box">
+        <h2 id="contact_me">Contact Me</h2>
+        <a href="tel:4807039666">480.703.9666</a>
+        <a href="mailto:blposthuma@gmail.com">blposthuma@gmail.com</a>
+        <a href="https://github.com/Brandy-Posthuma">Github</a>
+    </section> 
 </main>
-
-
+    <footer>
+      <h4>Made with ❤️️ by: Brandy Posthuma</h4>
+      <p> 
+        &copy; 2022 Brandy Posthuma
+      </p>
+    </footer>
 </body>
 </html>
