@@ -9,7 +9,7 @@ body {
     height: auto;
     background-color: rgb(123, 157, 166);
 }
-
+/*header section with a solid black border and a background color*/
 .header {
     border: 2px solid black;
     display: flex;
@@ -35,7 +35,7 @@ body {
     padding: 5px;
     border-bottom: 2px;
 }
-
+/*image of antelope canyon in page arizona with a solid black border around it to add a cleaner picture*/
 .hero-image {
     height: 300px;
     width: 100%;
@@ -69,7 +69,7 @@ img {
     padding-bottom: 20px;
     display: inline-flexbox
 }
-
+/*general formating of the main section adding some flex wrapping*/
 main{
     display: block;
     flex-wrap: wrap;
